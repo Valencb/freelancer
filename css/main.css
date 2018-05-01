@@ -1,0 +1,217 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #2C3E50;
+  height: 20%;
+  clear: both;
+  padding-left: 0%;
+  padding-right: 0%;
+  overflow: hidden;
+}
+/* NOTE:  */
+header > *{
+  display: inline-block;
+  text-align: center;
+  box-sizing: content-box;
+}
+/* NOTE:  */
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  left: 15%;
+  top: .4em;
+}
+.Menu{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  color: white;
+  font-size: 1.5em;
+  position: relative;
+  left: 49em;
+  top: 2.5em;
+  padding-right: 1em;
+  overflow: auto;
+  clear: both;
+}
+/* NOTE: green section which contains: logo, star, tittle and subtittle*/
+.Principal {
+  width: 100%;
+  height: 45em;
+  background-color: #18BC9C;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 7.8em;
+  flex: content-box;
+  margin-bottom: 10%;
+  display: block;
+}
+.Titulo-start-bootstrap {
+  position: relative;
+  top: 5em;
+  font-size: 4em;
+  clear: both;
+}
+.Logo-star-bootstrap {
+  position: relative;
+  bottom: 10%;
+  clear: both;
+}
+.Principal-start{
+  display: block;
+  position: absolute;
+  left: 41%;
+  bottom: 35%;
+}
+.Imagen-logo-principal{
+  float: top;
+  bottom: 85%;
+}
+.Subtittle {
+  position: absolute;
+  left: 29%;
+  top: 170%;
+  font-style: normal;
+}
+/* NOTE: Menu block contain Menu opcions() */
+.Star-line-menu-options{
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-style: medium;
+  font-size: 1.8em;
+  display: inline-block;
+  width: 100%;
+  /* margin-bottom: 10%; */
+  text-align: center;
+}
+/* NOTE: Column and row for portafolio */
+.portafolio-column-row img{
+  display: inline-block;
+  width: 30%;
+  padding-left: 2%;
+  padding-bottom: 2%
+}
+/* NOTE: section about */
+.about{
+  width: 100%;
+  height: 45em;
+  background-color: #18BC9C;
+  color: white;
+}
+.paragraph-about {
+  box-sizing: border-box;
+  display: inline-block;
+  left: 150px;
+  text-align: left;
+  width: 40%;
+  font-size: 2em;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.paragraph-about-2{
+  box-sizing: border-box;
+  display: inline-block;
+  left: 150px;
+  float: left;
+  bottom: 15%;
+  text-align: left;
+  width: 40%;
+  font-size: 2em;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.Download {
+  border: 1px solid white;
+  color: white;
+  left: 35%;
+  margin: 2em;
+  padding: 1em;
+  position: relative;
+  text-align: center;
+  width: 15%;
+  font-size: 1.5em;
+}
+.Download:hover{
+  background-color: white;
+  color: black;
+}
+input {
+  position: relative;
+  top: -12em;
+  Left: 26em;
+}
+
+input {
+  display: block;
+  left: 5%;
+  top: 10%;
+  width: 70%;
+  height: 4em;
+  margin-top: 2%;
+  font-family: 'Lato', sans-serif;
+  font-style: medium;
+  font-size: 1.8em;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: solid:
+}
+button{
+  background-color: #18bc9c;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8em;
+  padding: 1em;
+  position: relative;
+  margin-top: 3em;
+  left: 5%;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  }
+  .General-footer {
+    width: 100%;
+    height: 20em;
+    background-color: #2C3E50;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    font-size: 1.5em;
+  }
+  .Left, .Center, .Right{
+    display: inline-block;
+    width: 28%;
+    height: 10em;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .Last{
+    width: 100%;
+    height: 6em;
+    background: #1A252F;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    top: 15%;
+  }
+  .icon{
+    color: white;
+    margin: 5%;
+    font-size: 1.3em;
+    border: solid white;
+    border-radius: 50%;
+  }
+  .liga{
+    color: red;
+    text-decoration: underline;
+
+  }
