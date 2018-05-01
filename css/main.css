@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -13,7 +13,7 @@ header {
   overflow: hidden;
 }
 /* NOTE:  */
-header > *{
+header > * {
   display: inline-block;
   text-align: center;
   box-sizing: content-box;
@@ -28,6 +28,40 @@ h4 {
   left: 15%;
   top: .4em;
 }
+input {
+  position: relative;
+  top: -12em;
+  Left: 26em;
+}
+
+input {
+  display: block;
+  left: 5%;
+  top: 10%;
+  width: 70%;
+  height: 4em;
+  margin-top: 2%;
+  font-family: 'Lato', sans-serif;
+  font-style: medium;
+  font-size: 1.8em;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: solid:
+}
+button{
+  background-color: #18bc9c;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8em;
+  padding: 1em;
+  position: relative;
+  margin-top: 3em;
+  left: 5%;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  }
 .Menu{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
@@ -116,7 +150,7 @@ h4 {
   margin-left: 5%;
   margin-top: 2%;
 }
-.paragraph-about-2{
+.paragraph-about-2 {
   box-sizing: border-box;
   display: inline-block;
   left: 150px;
@@ -139,79 +173,44 @@ h4 {
   width: 15%;
   font-size: 1.5em;
 }
-.Download:hover{
+.Download:hover {
   background-color: white;
   color: black;
 }
-input {
-  position: relative;
-  top: -12em;
-  Left: 26em;
-}
-
-input {
-  display: block;
-  left: 5%;
-  top: 10%;
-  width: 70%;
-  height: 4em;
-  margin-top: 2%;
+.General-footer {
+  width: 100%;
+  height: 20em;
+  background-color: #2C3E50;
+  color: white;
   font-family: 'Lato', sans-serif;
-  font-style: medium;
-  font-size: 1.8em;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: solid:
-}
-button{
-  background-color: #18bc9c;
-  border: none;
-  color: #FFFFFF;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.8em;
-  padding: 1em;
-  position: relative;
-  margin-top: 3em;
-  left: 5%;
-  border-radius: 5%;
-  margin-bottom: 5%;
+  font-style: bold;
+  font-size: 1.5em;
   }
-  .General-footer {
-    width: 100%;
-    height: 20em;
-    background-color: #2C3E50;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-style: bold;
-    font-size: 1.5em;
+.Left, .Center, .Right {
+  display: inline-block;
+  width: 28%;
+  height: 10em;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 5%;
   }
-  .Left, .Center, .Right{
-    display: inline-block;
-    width: 28%;
-    height: 10em;
-    text-align: center;
-    margin-left: 5%;
-    margin-top: 5%;
+.Last{
+  width: 100%;
+  height: 6em;
+  background: #1A252F;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  top: 15%;
   }
-  .Last{
-    width: 100%;
-    height: 6em;
-    background: #1A252F;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    top: 15%;
+.icon{
+  color: white;
+  margin: 5%;
+  font-size: 1.3em;
+  border: solid white;
+  border-radius: 50%;
   }
-  .icon{
-    color: white;
-    margin: 5%;
-    font-size: 1.3em;
-    border: solid white;
-    border-radius: 50%;
-  }
-  .liga{
-    color: red;
-    text-decoration: underline;
-
+.liga{
+  color: red;
+  text-decoration: underline;
   }
